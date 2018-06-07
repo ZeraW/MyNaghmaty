@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="330dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/backgrondmore" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="تواصل معنا"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/facebook_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/facebook" />
+            <!--  <ImageView
+                  android:layout_width="@dimen/dialog_img_dim"
+                  android:layout_height="@dimen/dialog_img_dim"
+                  android:id="@+id/youtube_img"
+                  android:src="@drawable/youtupe"
+                  android:layout_alignParentEnd="true"
+                  android:layout_alignParentRight="true"
+                  />-->
+
+            <ImageView
+                android:id="@+id/google_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/google" />
+
+            <ImageView
+                android:id="@+id/website_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/website" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/map_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/map" />
+
+            <ImageView
+                android:id="@+id/mail_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/mail" />
+
+            <ImageView
+                android:id="@+id/phone_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/phone" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

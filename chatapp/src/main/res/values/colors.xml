@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#165e96</color>
+    <color name="r">#c7c8c9</color>
+    <color name="s">#0c70d3</color>
+    <color name="live_chat">#1b75bc</color>
+    <color name="chat_client">#527db0d3 </color>
+    <color name="chat_gms">#ffffff </color>
+    <color name="chat_background">#d1d3d4 </color>
+    <color name="chat_gms_color">#710702 </color>
+
+</resources>

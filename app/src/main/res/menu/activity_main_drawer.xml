@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/id_service"
+            android:title="Services" />
+        <item
+            android:id="@+id/id_products"
+            android:title="Products" />
+        <item
+            android:id="@+id/id_subsidiaries"
+            android:title="Subsidiaries"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/id_projects"
+            android:title="Projects" />
+
+        <item
+            android:id="@+id/id_clients"
+            android:title="Clients"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/id_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/id_ourteam"
+            android:title="Our Team" />
+        <item
+            android:id="@+id/id_contactus"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/id_language"
+            android:title="" />
+
+
+    </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

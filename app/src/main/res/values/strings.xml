@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Naghmaty</string>
+
+    <string name="HomePage">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="copy_right">All rights Reserved   Global Media Services  it is not allowed to copy , or republish or commercially re-use this software wihout a written permission</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="Part1_ar">الخدمات</string>
+    <string name="Part1_en">Services</string>
+
+
+    <string name="Part2_ar">المشروعات</string>
+    <string name="Part2_en">Projects</string>
+
+    <string name="Part3_ar">فريق العمل</string>
+    <string name="Part3_en">Our Team</string>
+
+    <string name="Part4_ar">الخدمات</string>
+    <string name="Part4_en">الخدمات</string>
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/image_row"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/text_row"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal|bottom"
+       android:layout_below="@+id/image_row"
+        android:textStyle="bold"
+        android:paddingTop="2dp"
+        android:text="HEllo World from here"
+        android:textColor="#000"
+        android:textSize="11sp" />
+</RelativeLayout>

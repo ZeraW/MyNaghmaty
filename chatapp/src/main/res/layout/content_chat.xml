@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdallah.chatdemo.ChatActivity"
+    tools:showIn="@layout/activity_chat"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/linear1">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_recycler">
+
+    </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:weightSum="1"
+    android:id="@+id/linear1"
+    android:layout_marginBottom="5dp"
+    >
+   <EditText
+    android:layout_height="50dp"
+    android:layout_width="0dp"
+    android:layout_weight="0.85"
+    android:id="@+id/e_txt"
+    android:background="@drawable/rounded_edittext"
+       android:layout_gravity="bottom"
+       android:padding="5dp"
+       android:hint="Type a message"
+       android:scrollbars="vertical"
+       android:inputType="textMultiLine|text"
+       android:layout_marginBottom="2dp"
+    />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:layout_weight="0.15"
+        android:id="@+id/btn"
+        android:src="@drawable/icon_chat003"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        app:backgroundTint="@color/chat_gms_color"
+        />
+</LinearLayout>
+    <!--<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1"
+        android:id="@+id/linear1">
+        <EditText
+            android:layout_height="50dp"
+            android:inputType="textMultiLine|text"
+            android:layout_width="match_parent"
+            android:layout_weight="0.85"
+            android:id="@+id/e_txt"
+            android:background="@color/chat_gms"
+            android:layout_gravity="bottom"
+            android:scrollbars="vertical"
+            android:paddingEnd="60dp"
+            android:paddingRight="60dp"
+            android:hint="Type a message"
+            />
+        <android.support.design.widget.FloatingActionButton
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:layout_weight="0.15"
+            android:id="@+id/btn"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/send_icon_chat"
+            app:backgroundTint="fff"
+            android:layout_gravity="end"
+            />
+    </FrameLayout>-->
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

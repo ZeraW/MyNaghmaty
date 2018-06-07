@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo_products"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:layout_below="@+id/title_products"
+                android:background="#fff"
+                android:clickable="true" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#70b3b3b3"/>
+
+
+                <TextView
+                    android:id="@+id/title_products"
+                    android:background="#fff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="3dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_below="@+id/title_products"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#70b3b3b3"/>
+                <TextView
+                    android:background="#fff"
+                    android:id="@+id/text_products"
+                    android:layout_below="@id/title_products"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:paddingTop="10dp"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:id="@+id/face_img"
+        android:src="@drawable/facebook"
+        android:padding="10dp"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:id="@+id/web_img"
+        android:layout_toEndOf="@+id/face_img"
+        android:layout_toRightOf="@+id/face_img"
+        android:src="@drawable/webside"
+        android:padding="10dp"
+        />
+
+</RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

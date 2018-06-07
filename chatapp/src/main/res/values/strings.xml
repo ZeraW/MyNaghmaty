@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChatDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="facebook_app_id">1495797650537999</string>
+    <string name="fb_login_protocol_scheme">fb1495797650537999</string>
+    <string name="title_activity_users">UsersActivit</string>
+
+</resources>

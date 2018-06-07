@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/contact_us_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="Contact Us"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/contact_us_title"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/facebook_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_weight="1"
+                android:src="@drawable/facebook" />
+
+
+            <ImageView
+                android:id="@+id/website_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_weight="1"
+                android:src="@drawable/webside"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/youtube_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_weight="1"
+                android:src="@drawable/youtupe" />
+
+            <ImageView
+                android:id="@+id/google_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_weight="1"
+                android:src="@drawable/google" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/map_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_weight="1"
+                android:src="@drawable/map" />
+
+            <ImageView
+                android:id="@+id/mail_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_weight="1"
+                android:src="@drawable/mail" />
+
+            <ImageView
+                android:id="@+id/phone_img"
+                android:layout_width="@dimen/dialog_img_dim"
+                android:layout_height="@dimen/dialog_img_dim"
+                android:layout_weight="1"
+                android:src="@drawable/phone" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- <ImageView
+                 android:layout_width="@dimen/dialog_img_dim"
+                 android:layout_height="@dimen/dialog_img_dim"
+                 android:id="@+id/website_img"
+                 android:src="@drawable/website"
+                 android:layout_centerHorizontal="true"
+                 />-->
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

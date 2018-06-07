@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "213517390064",
+    "firebase_url": "https://templategms2.firebaseio.com",
+    "project_id": "templategms2",
+    "storage_bucket": "templategms2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213517390064:android:8d7798a07bffd6c7",
+        "android_client_info": {
+          "package_name": "com.example.ahmedfahmy.gmsapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213517390064-79t2adpifs90ian7tao6d6jain2cf8ie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_76dXT_rVz-H_tdQJ3iYCZqMDGXkI0Xg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213517390064:android:ea8a7181b2a7e422",
+        "android_client_info": {
+          "package_name": "com.example.fahmy.naghmaty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213517390064-79t2adpifs90ian7tao6d6jain2cf8ie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_76dXT_rVz-H_tdQJ3iYCZqMDGXkI0Xg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

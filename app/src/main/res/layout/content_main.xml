@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fahmy.naghmaty.Activities.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:id="@+id/scrl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#70b3b3b3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linear_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:src="@drawable/naghmaty09" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingTop="3dp"
+                android:id="@+id/container_livechat"
+                android:layout_width="match_parent"
+                android:background="#fff"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/livechat"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="30dp"
+                    android:maxHeight="30dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/naghmaty07"
+                    />
+
+                <TextView
+                    android:id="@+id/livechatText"
+                    android:text="Live Chat"
+                    android:paddingBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"
+                    android:textSize="19sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:id="@+id/chaticon"
+                    android:layout_marginLeft="200dp"
+                    android:paddingTop="8dp"
+                    android:layout_width="20dp"
+                    android:layout_gravity="end"
+                    android:layout_height="25dp"
+                    android:src="@drawable/naghmaty08"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/linear_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical">
+
+
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/products_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/sub_container"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:visibility="gone"
+                >
+
+            </RelativeLayout>
+           <!-- <LinearLayout
+                android:id="@+id/linear_subsidiraus"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Subsidiaries"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" />
+
+
+                &lt;!&ndash; <Button
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginStart="10dp"
+                     android:layout_marginEnd="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginTop="10dp"
+                     android:text="More"
+                     android:id="@+id/btn_MoreSubsidiaries"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     />&ndash;&gt;
+
+
+            </LinearLayout>
+-->
+            <LinearLayout
+                android:id="@+id/linear_Projects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+
+
+             <!--   <Button
+                    android:id="@+id/btn_MoreProjects"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="More" />-->
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/about_us_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/clients_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                >
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/gallary_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/linear_ourteam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/contact_us_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
